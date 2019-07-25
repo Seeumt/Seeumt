@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>用户待审核页面</title>
+
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,700,900' rel='stylesheet' type='text/css' />
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css' />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="font-awesome-4.2.0/css/font-awesome.css" type="text/css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <!-- Style -->
+    <link rel="stylesheet" href="css/responsive.css" type="text/css" />
+    <!-- Responsive -->
+    <style>
+        #aaa {
+            padding: 110px 20px
+        }
+    </style>
+
+</head>
+
+<body style="background-image: url('images/resource/login-bg.jpg')">
+
+    <div class="main">
+        <header class="header">
+            <div class="logo">
+                <a href="dashboard.html" title=""><img src="images/logo2.png" alt="" />
+                </a>
+                <a title="" class="toggle-menu"><i class="fa fa-bars"></i></a>
+            </div>
+
+
+        </header>
+        <!-- Header -->
+        <div class="page-container menu-left">
+            <aside class="sidebar">
+                <div class="profile-stats">
+                    <div class="mini-profile">
+                        <span><img src="images/resource/bolo.jpg" alt="" /></span>
+                        <h3>马可·菠萝儿</h3>
+                        <h6 class="status online"><i></i>在线</h6>
+                        <a href="./A_景点登录入口.html" class="logout red" data-toggle="tooltip" data-placement="right"><i
+                                class="fa fa-power-off"></i></a>
+                    </div>
+                    <div class="quick-stats">
+                        <h5>今日数据</h5>
+                        <ul>
+                            <li><span>98<i>已审核</i></span>
+                            </li>
+                            <li><span>1.5h<i>在线时长</i></span>
+                            </li>
+
+                            <!-- <li><span>$120<i>Revenue</i></span>
+                            </li> -->
+                        </ul>
+                    </div>
+                </div>
+                <div class="menu-sec">
+                    <div id="menu-toogle" class="menus">
+                        <div class="single-menu">
+                            <h2><a title=""><i class="fa fa-home"></i><span>用户信息审核中心</span></a>
+                            </h2>
+                            <div class="sub-menu">
+                                <ul>
+                                    <li><a href="./C_用户已审核页面.html" title="">已审核申请</a>
+                                    </li>
+                                    <li><a href="./C_用户待审核页面.html" title="">待审核申请</a>
+                                    </li>
+                                    <li><a href="./C_用户重新审核页面.html" title="">重审申请</a>
+                                    </li>
+                                    <li><a href="#" title="">系统消息</a><span class="badge red">New</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="single-menu">
+                            <h2><a title=""><i class="fa fa-home"></i><span>景区信息审核中心</span></a>
+                            </h2>
+                            <div class="sub-menu">
+                                <ul>
+                                    <li><a href="./C_景区已审核页面.html" title="">已审核申请</a>
+                                    </li>
+                                    <li><a href="./C_景区待审核页面.html" title="">待审核申请</a>
+                                    </li>
+                                    <li><a href="./C_景区重新审核页面.html" title="">重审申请</a>
+                                    </li>
+                                    <li><a href="#" title="">系统消息</a><span class="badge red">New</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="single-menu">
+                            <h2><a title=""><i class="fa fa-users"></i><span>用户反馈</span></a></h2>
+                            <div class="sub-menu">
+                                <ul>
+                                    <li><a href="blank.html" title="">投诉</a>
+                                    </li>
+                                    <li><a href="blank.html" title="">建议</a>
+                                    </li>
+                                    <li><a href="blank.html" title="">合作</a>
+                                    </li>
+                                    <li><a href="blank.html" title="">其他</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="single-menu">
+                            <h2><a href="./数据统计页面.html" title=""><i class="fa fa-bar-chart"></i><span>数据统计</span></a>
+                            </h2>
+                        </div>
+
+                    </div>
+                    <p>2019 Copyright Tips by CUMT <a href="#" title="">Tips</a>
+                    </p>
+                </div>
+
+            </aside>
+
+
+
+
+
+        </div>
+
+        <div id="aaa">
+            <div class="row">
+                <div class="masonary-grids">
+                    <div class="col-lg-3 col-md-3">
+
+                    </div>
+
+                    <div class="col-md-6 col-lg-6">
+                        <div class="widget-area">
+                            <form role="form" class="sec">
+
+                                <div class="form-group">
+                                    <label for="exampleInputName">景区名称</label>
+                                    <input type="text" id="exampleInputName" class="form-control" readonly
+                                        placeholder="美丽的云龙湖">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputAddress">景区地址</label>
+                                    <input type="text" id="exampleInputAddress" class="form-control" readonly
+                                        placeholder="江苏省·徐州市">
+                                </div>
+
+
+
+                                <!-- <button class="btn green pull-right" type="submit">拒绝</button>
+                                <button class="btn green pull-right" type="submit">同意</button> -->
+                                <div align="left" style="float:left">
+                                    <button class="btn red pull-right" type="submit">拒绝</button>
+                                </div>
+                                <div align="right">
+                                    <button class="btn green pull-right" type="submit">同意</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3">
+                    </div>
+                    <!-- Slide Panel -->
+                </div>
+            </div>
+            <!-- Page Container -->
+        </div>
+        <!-- main -->
+
+
+        <!-- Script -->
+        <script type="text/javascript" src="js/modernizr.js"></script>
+        <script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+        <script type="text/javascript" src="js/enscroll.js"></script>
+        <script type="text/javascript" src="js/grid-filter.js"></script>
+
+</body>
+
+</html>

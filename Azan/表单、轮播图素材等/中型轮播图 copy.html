@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jobs小型轮播图</title>
+
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,700,900' rel='stylesheet' type='text/css' />
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css' />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="font-awesome-4.2.0/css/font-awesome.css" type="text/css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css" />
+    <!-- Carousal -->
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <!-- Style -->
+    <link rel="stylesheet" href="css/responsive.css" type="text/css" />
+    <!-- Responsive -->
+
+</head>
+
+<body>
+
+    <div class="main">
+        <header class="header">
+            
+        </header>
+        <!-- Header -->
+        <div class="page-container menu-left">
+                <div class="col-md-8">
+                        <div class="widget-area no-padding blank">
+                            <h2 class="widget-title"><strong>Boostrap</strong> Slider</h2>
+                            <div data-ride="carousel" class="carousel slide" id="carousel-example-generic">
+                                <ol class="carousel-indicators">
+                                    <li class="" data-slide-to="0" data-target="#carousel-example-generic"></li>
+                                    <li data-slide-to="1" data-target="#carousel-example-generic" class="active"></li>
+                                    <li data-slide-to="2" data-target="#carousel-example-generic" class=""></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="item">
+                                        <img alt="First slide" src="images/resource/slide1.jpg" />
+                                    </div>
+                                    <div class="item active">
+                                        <img alt="First slide" src="images/resource/slide2.jpg" />
+                                    </div>
+                                    <div class="item">
+                                        <img alt="First slide" src="images/resource/slide3.jpg" />
+                                    </div>
+                                </div>
+                                <a data-slide="prev" role="button" href="#carousel-example-generic" class="left carousel-control">
+                                    <span class="fa fa-chevron-left"></span>
+                                </a>
+                                <a data-slide="next" role="button" href="#carousel-example-generic" class="right carousel-control">
+                                    <span class="fa fa-chevron-right"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+            <!-- Slide Panel -->
+        </div>
+        <!-- Page Container -->
+    </div>
+    <!-- main -->
+
+
+    <!-- Script -->
+    <script type="text/javascript" src="js/modernizr.js"></script>
+    <script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/enscroll.js"></script>
+    <script type="text/javascript" src="js/grid-filter.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+
+            $(".carousal-sec").owlCarousel({
+                autoPlay: true,
+                stopOnHover: true,
+                goToFirstSpeed: 500,
+                slideSpeed: 500,
+                singleItem: true,
+                autoHeight: true,
+                transitionStyle: "backSlide",
+                navigation: true
+            });
+        });
+    </script>
+</body>
+
+</html>

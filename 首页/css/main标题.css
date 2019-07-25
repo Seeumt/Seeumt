@@ -1,0 +1,15 @@
+h1{
+	text-align: center;
+}
+body{
+    background:linear-gradient(to left, #ffdde1, #ee9ca7, #a7bfe8, #6190e8);      /*背景颜色变换*/
+  background-size:500% 500%;
+/*  transition:background 3s ease;  */                                        /*背景颜色动画时间*/
+  background-position:50% 50%;}
+
+  #sd1{
+  	 background:linear-gradient(to right, #ffdde1, #ee9ca7, #a7bfe8, #6190e8);      /*背景颜色变换*/
+  background-size:500% 500%;
+/*  transition:background 3s ease;  */                                        /*背景颜色动画时间*/
+  background-position:50% 50%;}
+  }
